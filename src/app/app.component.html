@@ -1,0 +1,5 @@
+<input type="text" [(ngModel)]="customer" />
+<button type="submit" (click)="add(customer)">add customer</button>
+<div *ngFor="let item of customerList">
+  {{ item }}
+</div>
